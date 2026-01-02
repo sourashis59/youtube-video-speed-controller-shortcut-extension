@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Speed Keyboard Controller",
+  "version": "1.0",
+  "description": "Control YouTube playback speed using keyboard shortcuts",
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/watch*"],
+      "js": ["content.js"]
+    }
+  ]
+}
